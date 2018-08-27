@@ -9,7 +9,7 @@ public class sanguineWolf{
     return enrage;
   }
   public void incEnrage() {
-    this.enrage += enrage;
+    enrage++;
   }
   public boolean getIsAlive() {
     return isAlive;
