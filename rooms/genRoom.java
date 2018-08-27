@@ -20,4 +20,14 @@ public class Room{
   private void setTreasure() {
     this.treasure = treasure;
   }
+  Room(boolean cleared, String occupant, String treasure) {
+    this.cleared = cleared;
+    this.occupant = occupant;
+    this.treasure = treasure;
+    system.out.println("you don't suck");
+  }
+}
+
+public static class main {
+  Room room1 = new Room(false, null, null);
 }

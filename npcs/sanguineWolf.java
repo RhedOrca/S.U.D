@@ -1,10 +1,10 @@
 public class sanguineWolf{
   private int HP = 50;
   private int Lvl = 5;
-  private int Dmg = 5;
+  private int Dmg = 2 * enrage;
   private int xpvalue = 100;
   private boolean isAlive = true;
-  private int enrage = 0;
+  private int enrage = 1;
   public int getEnrage() {
     return enrage;
   }
