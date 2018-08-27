@@ -3,6 +3,13 @@ public class ratpack{
   private int Lvl = 1;
   private int Dmg = Math.floor(HP);
   private int xpvalue = 40;
+  private boolean isAlive = true;
+  public boolean getIsAlive() {
+    return isAlive;
+  }
+  public void setIsAlive() {
+    this.isAlive = isAlive;
+  }
   public int getHP() {
     return HP;
   }

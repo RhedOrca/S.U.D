@@ -4,6 +4,13 @@ public static class player{
   private int Lvl = 1;
   private int Dmg = 1;
   private int XP = 0;
+  private boolean isAlive = true;
+  public boolean getIsAlive() {
+    return isAlive;
+  }
+  public void setIsAlive() {
+    this.isAlive = isAlive;
+  }
   public String getName() {
     return name;
   }
