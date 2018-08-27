@@ -2,22 +2,22 @@ public class Room{
   private boolean cleared = false;
   private String occupant = null;
   private String treasure = null;
-  private boolean getCleared() {
+  public boolean getCleared() {
     return cleared;
   }
-  private void setCleared() {
+  public void setCleared() {
     this.cleared = cleared;
   }
-  private String getOccupant() {
+  public String getOccupant() {
     return occupant;
   }
-  private void setOccupant() {
+  public void setOccupant() {
     this.occupant = occupant;
   }
-  private String getTreasure() {
+  public String getTreasure() {
     return treasure;
   }
-  private void setTreasure() {
+  public void setTreasure() {
     this.treasure = treasure;
   }
   Room(boolean cleared, String occupant, String treasure) {
