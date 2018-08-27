@@ -4,6 +4,13 @@ public class sanguineWolf{
   private int Dmg = 5;
   private int xpvalue = 100;
   private boolean isAlive = true;
+  private int enrage = 0;
+  public int getEnrage() {
+    return enrage;
+  }
+  public void incEnrage() {
+    this.enrage += enrage;
+  }
   public boolean getIsAlive() {
     return isAlive;
   }
