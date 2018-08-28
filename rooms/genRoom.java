@@ -2,25 +2,25 @@ public class Room{
   private boolean cleared = false;
   private String occupant = null;
   private String treasure = null;
-  public boolean getCleared() {
+  private boolean getCleared() {
     return cleared;
   }
-  public void setCleared() {
+  private void setCleared() {
     this.cleared = cleared;
   }
-  public String getOccupant() {
+  private String getOccupant() {
     return occupant;
   }
-  public void setOccupant() {
+  private void setOccupant() {
     this.occupant = occupant;
   }
-  public String getTreasure() {
+  private String getTreasure() {
     return treasure;
   }
-  public void setTreasure() {
+  private void setTreasure() {
     this.treasure = treasure;
   }
-  Room(boolean cleared, String occupant, String treasure) {
+  public void makeroom(boolean cleared, String occupant, String treasure) {
     this.cleared = cleared;
     this.occupant = occupant;
     this.treasure = treasure;
@@ -28,6 +28,6 @@ public class Room{
   }
 }
 
-public static class main {
-  Room room1 = new Room(false, null, null);
+public static class {
+  Room room1 = new makeroom(false, null, null);
 }
