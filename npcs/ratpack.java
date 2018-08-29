@@ -1,4 +1,4 @@
-public class ratpack {
+public class Ratpack {
     private int HP = 20;
     private int Lvl = 1;
     private int Dmg = Math.floor(HP);

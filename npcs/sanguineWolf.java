@@ -1,4 +1,4 @@
-public class sanguineWolf {
+public class SanguineWolf {
     private int HP = 50;
     private int Lvl = 5;
     private int Dmg = 2 * enrage;

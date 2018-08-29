@@ -1,4 +1,4 @@
-public class slime {
+public class Slime {
     private int HP = 10;
     private int Lvl = 1;
     private int Dmg = 1;

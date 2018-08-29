@@ -1,4 +1,4 @@
-public class hydra {
+public class Hydra {
     private int HP = 50;
     private int Lvl = 1;
     private int Dmg = 1;

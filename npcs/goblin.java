@@ -1,4 +1,4 @@
-public class goblin {
+public class Goblin {
     private int HP = 10;
     private int Lvl = 1;
     private int Dmg = 1;
