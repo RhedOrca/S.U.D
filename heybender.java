@@ -1,9 +1,9 @@
-public static void main(String[]args){
-        Room room1=new makeroom(false,null,null);
-        room1.makeroom();
-        }
-
 public class Room {
+    public static void main(String[] args) {
+        Room Room1 = new makeroom();
+        Room1.makeroom(false, null, null);
+    }
+
     private boolean cleared = false;
     private String occupant = null;
     private String treasure = null;
@@ -36,6 +36,7 @@ public class Room {
         this.cleared = cleared;
         this.occupant = occupant;
         this.treasure = treasure;
-        system.out.println("you don't suck");
+        System.out.println("you don't suck");
     }
+
 }
