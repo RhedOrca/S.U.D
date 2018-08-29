@@ -1,4 +1,4 @@
-public class treant {
+public class Treant {
     private int HP = 40;
     private int Lvl = 1;
     private int Dmg = 1;
@@ -9,7 +9,7 @@ public class treant {
         return isAlive;
     }
 
-    public void setIsAlive() {
+    public void setIsAlive(boolean isAlive) {
         this.isAlive = isAlive;
     }
 
@@ -17,7 +17,7 @@ public class treant {
         return HP;
     }
 
-    public void setHP() {
+    public void setHP(int HP) {
         this.HP = HP;
     }
 
@@ -25,7 +25,7 @@ public class treant {
         return Lvl;
     }
 
-    public void setLvl() {
+    public void setLvl(int Lvl) {
         this.Lvl = Lvl;
     }
 
@@ -33,7 +33,7 @@ public class treant {
         return Dmg;
     }
 
-    public void setDmg() {
+    public void setDmg(int Dmg) {
         this.Dmg = Dmg;
     }
 
@@ -41,7 +41,7 @@ public class treant {
         return XP;
     }
 
-    public void setXP() {
+    public void setXP(int XP) {
         this.XP = XP;
     }
 }
