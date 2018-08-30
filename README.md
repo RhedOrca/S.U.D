@@ -1,4 +1,4 @@
 # S.U.D
-Single User Dungeon
+Single User Dungeon - POC
 
-Procedurally generated Zorp, lite, as a proof of concept.
+Spring + Maven
