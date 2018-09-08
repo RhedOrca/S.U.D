@@ -1,5 +1,7 @@
 package com.red.orca.sud.actors.monsters;
 
-public class Treant {
+import com.red.orca.sud.actors.AbstractActor;
+
+public class Treant extends AbstractActor{
 
 }

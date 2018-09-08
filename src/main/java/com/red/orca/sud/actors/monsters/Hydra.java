@@ -1,5 +1,7 @@
 package com.red.orca.sud.actors.monsters;
 
-public class Hydra {
+import com.red.orca.sud.actors.AbstractActor;
+
+public class Hydra extends AbstractActor {
 
 }

@@ -1,5 +1,7 @@
 package com.red.orca.sud.actors.monsters;
 
-public class Kobold {
+import com.red.orca.sud.actors.AbstractActor;
+
+public class Kobold extends AbstractActor{
 
 }

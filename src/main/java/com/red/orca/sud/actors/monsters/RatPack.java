@@ -1,5 +1,7 @@
 package com.red.orca.sud.actors.monsters;
 
-public class RatPack {
+import com.red.orca.sud.actors.AbstractActor;
+
+public class RatPack extends AbstractActor{
 
 }

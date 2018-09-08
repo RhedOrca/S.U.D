@@ -1,5 +1,7 @@
 package com.red.orca.sud.actors.monsters;
 
-public class Goblin {
+import com.red.orca.sud.actors.AbstractActor;
+
+public class Goblin extends AbstractActor {
 
 }

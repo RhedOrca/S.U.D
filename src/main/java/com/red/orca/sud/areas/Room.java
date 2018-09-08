@@ -10,9 +10,9 @@ import java.util.List;
  */
 public class Room {
 
-    private boolean cleared;
-    private List<AbstractActor> occupants;
-    private List<Treasure> treasure;
+    private boolean cleared = false;
+    private List<AbstractActor> occupants = new ArrayList<occupants>;
+    private List<Treasure> treasure = new ArrayList<treasure>;
 
     /**
      * Room constructor.
@@ -27,9 +27,6 @@ public class Room {
         this.occupants = occupant;
         this.treasure = treasure;
 
-        System.out.println("You definitely suck...");
-        System.out.println("But that is ok...");
-        System.out.println("Here is a room...");
     }
 
     private boolean getCleared() {
@@ -54,6 +51,16 @@ public class Room {
 
     private void setTreasure(List<Treasure> treasure) {
         this.treasure = treasure;
+    }
+
+    public void occupantUpdate() {
+      for (int i = 0; i < List<AbstractActor>.size; i++) {
+        if occupant != Player && (occupant.getIsAlive() == false) {
+          list.remove(occupant);
+        }
+
+      }
+      }
     }
 
 }

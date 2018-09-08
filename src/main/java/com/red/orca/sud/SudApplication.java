@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SudApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(SudApplication.class, args);
+		SpringApplication.run(SudApplication.class, args);
 
 		final Room room = new Room(false, null, null);
 	}
