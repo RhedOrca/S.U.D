@@ -54,13 +54,15 @@ public class Room {
     }
 
     public void occupantUpdate() {
-      for (int i = 0; i < List<AbstractActor>.size; i++) {
-        if occupant != Player && (occupant.getIsAlive() == false) {
-          list.remove(occupant);
+      for (Iterator<AbstractActor> iterator = occupants.iterator(); iterator.hasNext();){
+        /*creates an iterator, iterates through list occupants as long as
+        iterator has something after it in list */
+        AbstractActor occupant = iterator.next(); // pretty sure this is wrong
+        if (this.getIsAlive()) { //if alive, skip to next occupant
         }
-
-      }
+        else {          // otherwise (dead), remove from occupant list
+          iterator.remove();
+        }
       }
     }
-
 }
